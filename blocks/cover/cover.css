@@ -1,10 +1,15 @@
 .cover {
   position: relative;
-  height: auto;
+  max-width: 1184px;
+  height: 58vw;
+  max-height: 740px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url("./cover-trains.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .cover:hover .cover__overlay {

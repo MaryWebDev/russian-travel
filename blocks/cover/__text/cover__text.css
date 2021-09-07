@@ -1,5 +1,5 @@
 .cover__text {
-  position: absolute;
   max-width: 560px;
   color: white;
+  z-index: 1;
 }
