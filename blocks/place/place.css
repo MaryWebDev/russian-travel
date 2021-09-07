@@ -1,0 +1,19 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(288px, 1fr));
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 3.3%;
+  grid-row-gap: 48px;
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    grid-row-gap: 32px;
+  }
+}
