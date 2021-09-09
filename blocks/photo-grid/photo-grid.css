@@ -15,11 +15,13 @@
 @media (max-width: 768px) {
   .photo-grid {
     margin: 0 24px 0;
+    gap: 16px;
   }
 }
 
 @media (max-width: 510px) {
   .photo-grid {
     margin: 0 16px 0;
+    gap: 12px;
   }
 }

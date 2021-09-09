@@ -7,12 +7,6 @@
   color: white;
 }
 
-@media (max-width: 768px) {
-  .cover__subtitle {
-    font-size: 5vw;
-  }
-}
-
 @media (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;

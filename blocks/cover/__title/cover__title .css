@@ -10,6 +10,13 @@
 
 @media (max-width: 768px) {
   .cover__title {
-    font-size: 9vw;
+    font-size: 9.4vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
   }
 }
