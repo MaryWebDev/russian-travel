@@ -4,10 +4,11 @@
   font-family: inherit;
   font-size: 18px;
   line-height: 1.22;
+  color: white;
 }
 
 @media (max-width: 768px) {
-  .lead__subtitle {
+  .cover__subtitle {
     font-size: 5vw;
   }
 }

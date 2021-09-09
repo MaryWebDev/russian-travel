@@ -1,4 +1,16 @@
 .intro {
   max-width: 984px;
-  margin: auto;
+  margin: 0 48px 0;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 0 24px 0;
+  }
+}
+
+@media (max-width: 510px) {
+  .intro {
+    margin: 0 16px 0;
+  }
 }

@@ -3,3 +3,9 @@
   flex-direction: column;
   gap: 26px;
 }
+
+@media (max-width: 510px) {
+  .place__description {
+    margin: 0 16px 0;
+  }
+}
