@@ -40,6 +40,3 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/page/__section-distance/page__section-distance.css');
 @import url('../blocks/hover-effect/hover-effect.css');
-* {
-  outline: 1px solid red;
-}
